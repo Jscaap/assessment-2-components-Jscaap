@@ -17,6 +17,18 @@ module.exports = {
           loader: "babel-loader",
         },
       },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"], // Injects CSS into the DOM
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i, // Injects Images into the DOM
+        type: "asset/resource",
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i, // Injects Fonts into the DOM
+        type: "asset/resource",
+      },
     ],
   },
   plugins: [
@@ -26,7 +38,7 @@ module.exports = {
   ],
   devServer: {
     static: {
-      directory: path.join(__dirname, "dist"),
+      directory: path.join(__dirname, "public"), // Injects all assets into the DOM
     },
     compress: true,
     port: 3000,
