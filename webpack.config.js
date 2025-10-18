@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin"); // copies static assets to /dist on build
 
 module.exports = {
   entry: "./src/index.js",
@@ -7,6 +8,7 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
     clean: true, // cleans up the /dist folder before build
+    publicPath: "", 
   },
   module: {
     rules: [
@@ -34,6 +36,12 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./public/index.html",
+    }),
+    new CopyWebpackPlugin({
+      // Copies everything in /public except index.html into /dist at build time
+      patterns: [
+        { from: "public", to: ".", globOptions: { ignore: ["**/index.html"] } },
+      ],
     }),
   ],
   devServer: {
