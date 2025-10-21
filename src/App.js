@@ -6,6 +6,7 @@ import HomeAdvancedSearch from "./components/HomeAdvancedSearch"; // Import Home
 import FeaturedPropertiesSection from "./components/FeaturedPropertiesSection"; // Import FeaturedPropertiesSection
 import PopularRegionsSection from "./components/PopularRegionsSection"; // Import PopularRegionsSection
 import RecentArticlesSection from "./components/RecentArticlesSection"; // Import RecentArticlesSection
+import LastMinuteDealsSection from "./components/LastMinuteDealsSection"; // Import LastMinuteDealsSection
 
 function App() {
   // return all components
@@ -22,12 +23,24 @@ function App() {
         <div className="content">
           <div className="container">
             <div className="row">
+              {/* MAIN CONTENT */}
               <div className="main col-sm-8">
                 <FeaturedPropertiesSection />
                 <PopularRegionsSection />
                 <RecentArticlesSection />
               </div>
-              {/* sidebar goes here later */}
+
+              {/* SIDEBAR */}
+              <div className="sidebar col-sm-4">
+                <div className="col-sm-12">
+                  <LastMinuteDealsSection />
+                </div>
+
+                {/* Add Activity section next */}
+                {/* <div className="col-sm-12">
+                  <ActivitySection />
+                </div> */}
+              </div>
             </div>
           </div>
         </div>
