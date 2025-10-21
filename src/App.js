@@ -5,6 +5,7 @@ import Carousel from "./components/Carousel"; // Import Carousel
 import HomeAdvancedSearch from "./components/HomeAdvancedSearch"; // Import HomeAdvancedSearch
 import FeaturedPropertiesSection from "./components/FeaturedPropertiesSection"; // Import FeaturedPropertiesSection
 import PopularRegionsSection from "./components/PopularRegionsSection"; // Import PopularRegionsSection
+import RecentArticlesSection from "./components/RecentArticlesSection"; // Import RecentArticlesSection
 
 function App() {
   // return all components
@@ -24,7 +25,7 @@ function App() {
               <div className="main col-sm-8">
                 <FeaturedPropertiesSection />
                 <PopularRegionsSection />
-                {/* I’ll add Articles next */}
+                <RecentArticlesSection />
               </div>
               {/* sidebar goes here later */}
             </div>
