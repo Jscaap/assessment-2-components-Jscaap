@@ -8,6 +8,7 @@ import PopularRegionsSection from "./components/PopularRegionsSection"; // Impor
 import RecentArticlesSection from "./components/RecentArticlesSection"; // Import RecentArticlesSection
 import LastMinuteDealsSection from "./components/LastMinuteDealsSection"; // Import LastMinuteDealsSection
 import ActivitySection from "./components/ActivitySection"; // Import ActivitySection
+import Footer from "./components/Footer"; // Import Footer
 
 function App() {
   // return all components
@@ -44,6 +45,7 @@ function App() {
           </div>
         </div>
       </main>
+       <Footer />
     </div>
   );
 }
