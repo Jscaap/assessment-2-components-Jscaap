@@ -7,6 +7,7 @@ import FeaturedPropertiesSection from "./components/FeaturedPropertiesSection"; 
 import PopularRegionsSection from "./components/PopularRegionsSection"; // Import PopularRegionsSection
 import RecentArticlesSection from "./components/RecentArticlesSection"; // Import RecentArticlesSection
 import LastMinuteDealsSection from "./components/LastMinuteDealsSection"; // Import LastMinuteDealsSection
+import ActivitySection from "./components/ActivitySection"; // Import ActivitySection
 
 function App() {
   // return all components
@@ -35,11 +36,9 @@ function App() {
                 <div className="col-sm-12">
                   <LastMinuteDealsSection />
                 </div>
-
-                {/* Add Activity section next */}
-                {/* <div className="col-sm-12">
+                <div className="col-sm-12">
                   <ActivitySection />
-                </div> */}
+                </div> 
               </div>
             </div>
           </div>
