@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar"; // Import NavBar
 import Carousel from "./components/Carousel"; // Import Carousel
 import HomeAdvancedSearch from "./components/HomeAdvancedSearch"; // Import HomeAdvancedSearch
 import FeaturedPropertiesSection from "./components/FeaturedPropertiesSection"; // Import FeaturedPropertiesSection
+import PopularRegionsSection from "./components/PopularRegionsSection"; // Import PopularRegionsSection
 
 function App() {
   // return all components
@@ -22,7 +23,8 @@ function App() {
             <div className="row">
               <div className="main col-sm-8">
                 <FeaturedPropertiesSection />
-                {/* I’ll add Regions + Articles later */}
+                <PopularRegionsSection />
+                {/* I’ll add Articles next */}
               </div>
               {/* sidebar goes here later */}
             </div>
