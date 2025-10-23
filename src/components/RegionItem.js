@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types"; // For type-checking props
+import "./regionsection.css";
 
 // Functional component for a single Region card
 function RegionItem({ name, imageSrc, href = "#" }) {

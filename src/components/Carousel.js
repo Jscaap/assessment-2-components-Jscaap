@@ -15,7 +15,7 @@ function Carousel() {
                     className="item active"
                     id="slide1"
                     style={{
-                        background: "url(images/slide1.jpg) no-repeat center center",
+                        background: "url(images/home/slide-1.jpeg) no-repeat center center",
                         backgroundSize: "cover",
                     }}
                     >
@@ -34,7 +34,7 @@ function Carousel() {
                 className="item"
                 id="slide2"
                 style={{
-                    background: "url(images/slide2.jpg) no-repeat center center",
+                    background: "url(images/home/slide-2.jpeg) no-repeat center center",
                     backgroundSize: "cover",
                 }}
                 >

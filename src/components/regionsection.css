@@ -1,0 +1,25 @@
+/* Regions grid layout */
+#regions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  justify-items: center; 
+  margin-top: 20px;
+}
+
+#regions .item img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px; 
+  transition: transform 0.3s ease;
+}
+
+#regions .item img:hover {
+  transform: scale(1.05); 
+}
+
+#regions h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}

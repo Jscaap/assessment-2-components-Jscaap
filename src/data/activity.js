@@ -3,7 +3,7 @@
 const activity = [
   {
     id: "act-1",
-    avatarSrc: "http://placehold.it/70x70",
+    avatarSrc: "/images/home/activity-1.jpeg",
     authorName: "Sam Minnée",
     actionText: "reviewed",
     targetTitle: "The House With No Windows",
@@ -13,7 +13,7 @@ const activity = [
   },
   {
     id: "act-2",
-    avatarSrc: "http://placehold.it/70x70",
+    avatarSrc: "/images/home/activity-2.jpeg",
     authorName: "Ingo Schoomer",
     actionText: "asked a question about",
     targetTitle: "The Mistake by the Lake",

@@ -3,7 +3,7 @@ const featuredProperties = [
   {
     title: "Luxury Apartment with great views",           
     location: "Upper East Side, New York",                 
-    imageSrc: "http://placehold.it/760x670",               
+    imageSrc: "/images/home/properties-1.jpeg",               
     price: "$950",                                        
     bedrooms: 4,                                          
     bathrooms: 3,                                          
@@ -11,7 +11,7 @@ const featuredProperties = [
   {
     title: "Stunning Villa with 5 bedrooms",
     location: "Miami Beach, Florida",
-    imageSrc: "http://placehold.it/760x670",
+    imageSrc: "/images/home/properties-2.jpeg", 
     price: "$1,300",
     bedrooms: 5,
     bathrooms: 2,
@@ -19,7 +19,7 @@ const featuredProperties = [
   {
     title: "Recent construction with 3 bedrooms",
     location: "Park Slope, New York",
-    imageSrc: "http://placehold.it/760x670",
+    imageSrc: "/images/home/properties-3.jpeg", 
     price: "$560",
     bedrooms: 3,
     bathrooms: 2,
@@ -27,7 +27,7 @@ const featuredProperties = [
   {
     title: "Modern construction with parking space",
     location: "Midtown, New York",
-    imageSrc: "http://placehold.it/760x670",
+    imageSrc: "/images/home/properties-4.jpeg", 
     price: "$85",
     bedrooms: 1,
     bathrooms: 2,
@@ -35,7 +35,7 @@ const featuredProperties = [
   {
     title: "Single Family Townhouse",
     location: "Cobble Hill, New York",
-    imageSrc: "http://placehold.it/760x670",
+    imageSrc: "/images/home/properties-5.jpeg", 
     price: "$840",
     bedrooms: 2,
     bathrooms: 2,
@@ -43,7 +43,7 @@ const featuredProperties = [
   {
     title: "3 bedroom villa with garage for rent",
     location: "Bal Harbour, Florida",
-    imageSrc: "http://placehold.it/760x670",
+    imageSrc: "/images/home/properties-6.jpeg", 
     price: "$150",
     bedrooms: 3,
     bathrooms: 2,

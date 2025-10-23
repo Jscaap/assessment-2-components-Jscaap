@@ -9,7 +9,7 @@ const articles = [
     title: "How to get your dream property for the best price?",
     excerpt:
       "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
-    imageSrc: "http://placehold.it/766x515",
+    imageSrc: "/images/home/article-1.jpeg",
   },
   {
     tagIcon: "fa fa-film",
@@ -19,7 +19,7 @@ const articles = [
     title: "7 tips to get the best mortgage.",
     excerpt:
       "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
-    imageSrc: "http://placehold.it/766x515",
+    imageSrc: "/images/home/article-2.jpeg",
   },
   {
     tagIcon: "fa fa-file-text",
@@ -29,7 +29,7 @@ const articles = [
     title: "House, location or price: What's the most important factor?",
     excerpt:
       "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
-    imageSrc: "http://placehold.it/766x515",
+    imageSrc: "/images/home/article-3.jpeg",
   },
 ];
 

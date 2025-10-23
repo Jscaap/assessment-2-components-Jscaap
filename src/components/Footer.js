@@ -42,7 +42,7 @@ function Footer() {
                   <li>
                     <div className="image">
                       <a href="properties-detail.html">
-                        <img src="http://placehold.it/760x670" alt="Rhovanion" />
+                        <img src="/images/home/region-1.jpeg" alt="Rhovanion" />
                       </a>
                     </div>
                     <p><a href="properties-detail.html">Rhovanion</a></p>
@@ -50,7 +50,7 @@ function Footer() {
                   <li>
                     <div className="image">
                       <a href="properties-detail.html">
-                        <img src="http://placehold.it/760x670" alt="Eriador" />
+                        <img src="/images/home/region-2.jpeg" alt="Eriador" />
                       </a>
                     </div>
                     <p><a href="properties-detail.html">Eriador</a></p>
@@ -58,7 +58,7 @@ function Footer() {
                   <li>
                     <div className="image">
                       <a href="properties-detail.html">
-                        <img src="http://placehold.it/760x670" alt="Bay of Belfalas" />
+                        <img src="/images/home/region-3.jpeg" alt="Bay of Belfalas" />
                       </a>
                     </div>
                     <p><a href="properties-detail.html">Bay of Belfalas</a></p>
@@ -72,7 +72,7 @@ function Footer() {
                   <li>
                     <div className="image">
                       <a href="properties-detail.html">
-                        <img src="http://placehold.it/760x670" alt="Mordor" />
+                        <img src="/images/home/region-4.jpeg" alt="Mordor" />
                       </a>
                     </div>
                     <p><a href="properties-detail.html">Mordor</a></p>
@@ -80,7 +80,7 @@ function Footer() {
                   <li>
                     <div className="image">
                       <a href="properties-detail.html">
-                        <img src="http://placehold.it/760x670" alt="Arnor" />
+                        <img src="/images/home/region-5.jpeg" alt="Arnor" />
                       </a>
                     </div>
                     <p><a href="properties-detail.html">Arnor</a></p>
@@ -88,7 +88,7 @@ function Footer() {
                   <li>
                     <div className="image">
                       <a href="properties-detail.html">
-                        <img src="http://placehold.it/760x670" alt="Forlindon" />
+                        <img src="/images/home/region-6.jpeg" alt="Forlindon" />
                       </a>
                     </div>
                     <p><a href="properties-detail.html">Forlindon</a></p>
