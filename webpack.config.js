@@ -8,7 +8,7 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
     clean: true, // cleans up the /dist folder before build
-    publicPath: "", 
+    publicPath: '/assessment-2-components-Jscaap/',
   },
   module: {
     rules: [
