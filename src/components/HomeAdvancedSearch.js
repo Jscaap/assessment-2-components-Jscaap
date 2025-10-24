@@ -1,4 +1,5 @@
 import React from "react";
+import DateInput from "./DateInput"; // adjust the import path
 
 // create a HomeAdvancedSearch Function Component
 function HomeAdvancedSearch() {
@@ -13,17 +14,17 @@ function HomeAdvancedSearch() {
               <div className="form-group">
                 {/* Arrival Date */}
                 <div className="form-control-small">
-                  <div className="input-group date chzn-container" data-datepicker>
-                    <input
-                      placeholder="Arrive on..."
-                      type="text"
-                      className="form-control"
-                      data-date-format="DD/MM/YYYY"
-                    />
-                    <span className="input-group-addon">
-                      <span className="glyphicon glyphicon-calendar"></span>
-                    </span>
-                  </div>
+                   <div className="input-group date chzn-container" data-datepicker>
+                      <DateInput />
+                      <span
+                        className="input-group-addon"
+                        onClick={() =>
+                          document.querySelector('input[type="date"]')?.showPicker?.()
+                        }
+                      >
+                        <span className="glyphicon glyphicon-calendar"></span>
+                      </span>
+                    </div>
                 </div>
 
                 {/* Nights */}
